@@ -1,4 +1,4 @@
-module github.com/gin-contrib/zap
+module github.com/minhnq0702/gin-zap
 
 go 1.20
 
