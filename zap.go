@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/ztrue/tracerr"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
@@ -109,8 +110,8 @@ func GinzapWithConfig(logger ZapLogger, conf *Config) gin.HandlerFunc {
 
 			if len(c.Errors) > 0 {
 				// Append error field if this is an erroneous request.
-				for _, e := range c.Errors.Errors() {
-					logger.Error(e, fields...)
+				for _, e := range c.Errors {
+					logger.Error(tracerr.Sprint(e), fields...)
 				}
 			} else {
 				if zl, ok := logger.(*zap.Logger); ok {
