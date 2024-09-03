@@ -18,13 +18,13 @@ Require Go **1.19** or later.
 Download and install it:
 
 ```sh
-go get github.com/gin-contrib/zap
+go get github.com/minhnq0702/gin-zap
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/zap"
+import "github.com/minhnq0702/gin-zap"
 ```
 
 ## Example
@@ -38,7 +38,7 @@ import (
   "fmt"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  ginzap "github.com/minhnq0702/gin-zap"
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
 )
@@ -165,7 +165,7 @@ import (
   "fmt"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  ginzap "github.com/minhnq0702/gin-zap"
 
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
@@ -225,7 +225,7 @@ import (
   "regexp"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  ginzap "github.com/minhnq0702/gin-zap"
 
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
