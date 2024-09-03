@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	ginzap "github.com/gin-contrib/zap"
 	"github.com/gin-gonic/gin"
+	ginzap "github.com/minhnq0702/gin-zap"
 	"go.uber.org/zap"
 )
 

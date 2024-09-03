@@ -165,7 +165,7 @@ import (
   "fmt"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  ginzap "github.com/minhnq0702/gin-zap"
 
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
@@ -225,7 +225,7 @@ import (
   "regexp"
   "time"
 
-  ginzap "github.com/gin-contrib/zap"
+  ginzap "github.com/minhnq0702/gin-zap"
 
   "github.com/gin-gonic/gin"
   "go.uber.org/zap"
